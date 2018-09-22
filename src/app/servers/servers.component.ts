@@ -15,15 +15,8 @@ export class ServersComponent implements OnInit {
   ngOnInit() {
   }
 
-  onLoginUser() {
+  onResetUser() {
     this.username = '';
   }
 
-  isValidUsername() {
-    return (this.username.length > 0);
-  }
-
-  // onUpdateServerName(event: Event) {
-  //   this.serverName = (<HTMLInputElement> event.target).value;
-  // }
 }

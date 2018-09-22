@@ -3,7 +3,7 @@
 <p> {{ username }} </p>
 <button
   class="btn btn-primary" 
-  [disabled]="!isValidUsername"
-  (click)="onLoginUser()">
-  Login
+  [disabled]="username === ''"
+  (click)="onResetUser()">
+  Reset User
 </button>
